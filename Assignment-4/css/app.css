@@ -1,0 +1,440 @@
+/**************************************************************
+                            General
+**************************************************************/
+.wrapper{
+  margin:0 auto;
+  width:80%;
+  max-width: 1100px;
+}
+/**************************************************************
+                          Nav
+**************************************************************/
+.off-canvas{
+  background: #f44336;
+  padding:20px;
+}
+
+.off-canvas li{
+  margin: 10px 0;
+}
+
+.off-canvas a{
+  font-weight: bold;
+  color:white;
+}
+
+.desktop-nav ul{
+  float: right;
+  margin:0;
+  padding-top: 28px;
+}
+
+.desktop-nav li{
+  display: inline-block;
+  list-style: none;
+  margin-left: 30px;
+  color:black;
+}
+
+nav{
+  height:80px;
+  background: transparent;
+}
+
+.desktop-logo-container{
+  display: inline-block;
+  background:white;
+  text-align: center;
+  width:60px;
+  height:60px;
+}
+
+.desktop-logo-container i{
+  font-size:2em;
+  height:60px;
+  width:60px;
+  font-weight: bold;
+  line-height: 50px;
+  margin: 0;
+  padding-top: 10px;
+  color: #f44336;
+}
+
+.mobile-logo-container {
+  position: relative;
+  left:200px;
+  display: inline-block;
+  background:white;
+  text-align: center;
+  width:60px;
+  height:60px;
+}
+
+.mobile-logo-container i{
+  font-size:2em;
+  height:60px;
+  width:60px;
+  font-weight: bold;
+  line-height: 50px;
+  margin: 0;
+  padding-top: 10px;
+  color: #f44336;
+}
+
+.hamburger-container{
+  font-size: 20px;
+  position: absolute;
+  top:20px;
+  left:20px;
+  color:white;
+}
+
+.desktop-nav{
+  display: block;
+}
+
+.mobile-nav{
+  display: none;
+}
+
+.desktop-nav a{
+ color: #fff;
+ text-shadow: rgba(0,0,0,.75) 0.1em 0.1em 25px;
+ font-weight: bold;
+ font-size: 1.2em;
+}
+
+.hamburger-container, .desktop-logo-container, .mobile-logo-container {
+  float:left;
+}
+
+@media(max-width:640px){
+.desktop-nav{
+  display: none;
+  }
+.mobile-nav{
+    display: block;
+  }
+}
+
+@media(min-width:1180px){
+  .desktop-nav a{
+   color: #fff;
+   text-shadow: rgba(0,0,0,.75) 0.1em 0.1em 25px;
+   font-size: 1.5em;
+  }
+}
+
+.button{
+  border-radius: 20px;
+}
+
+/**************************************************************
+                            Hero
+**************************************************************/
+
+.hero{
+  height:700px;
+  background-position: 50% 50%;
+  background-image: url('../img/hero.jpg');
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+.hero-container{
+  color: white;
+  padding-top: 300px;
+  text-align: center;
+}
+
+.hero-container h1 {
+  color:#fff;
+  text-shadow: rgba(0,0,0,.75) 0.1em 0.1em 25px;
+  text-align: center;
+}
+
+.hero-container p{
+  color:#fff;
+  text-shadow: rgba(0,0,0,.75) 0.1em 0.1em 25px;
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+}
+
+.hero-mini{
+  height:300px;
+}
+
+/*******************************************************
+         Section
+******************************************************/
+section {
+ padding:60px 0;
+}
+
+section h1{
+ color:#319f52;
+ font-size: 2em;
+ font-weight: bold;
+}
+
+section h2{
+ color:#E45641;
+ font-size: 1.2em;
+}
+
+.card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8{
+ background: #222;
+ height:200px;
+ margin:10px;
+ background-position: 50% 50%;
+-webkit-background-size: cover;
+   -moz-background-size: cover;
+     -o-background-size: cover;
+        background-size: cover;
+}
+
+.card1{
+ background-image: url('../img/veg.jpg');
+ }
+
+.card2{
+ background-image: url('../img/cherry.jpg');
+}
+
+.card3{
+ background-image: url('../img/bread.jpg');
+}
+
+.card4{
+ background-image: url('../img/drink.jpg');
+}
+
+.card5{
+background-image: url('../img/grill.jpg');
+}
+
+.card6{
+ background-image: url('../img/bake.jpg');
+}
+
+
+.feature, .feature1{
+ padding-top:100px;
+ color: white;
+ text-align: center;
+ background-position: 50% 70%;
+ background-image: url('../img/feature.jpg');
+ -webkit-background-size: cover;
+   -moz-background-size: cover;
+     -o-background-size: cover;
+        background-size: cover;
+}
+
+.feature{
+ height:400px;
+}
+
+.feature1{
+ height:300px;
+  }
+
+.feature h1{
+ font-size: 3em;
+ color: #E45641;
+}
+
+.feature h2{
+  font-size: 2em;
+  color: #0a0a0a;
+  text-align: center;
+  padding-top: 0;
+}
+
+.feature .button{
+  padding: 10px 30px;
+}
+
+.pic-mariya, .pic-rick, .pic-steve, .pic-monica{
+  background: #222;
+  height:150px;
+  margin:15px;
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  background-size: cover;
+}
+
+.pic-mariya {
+ background-image: url('../img/mariya.jpg');
+}
+
+.pic-rick{
+ background-image: url('../img/hamster.jpg');
+}
+
+.pic-steve{
+ background-image: url('../img/dog.jpg');
+}
+
+.pic-monica{
+ background-image: url('../img/bunny.jpg');
+}
+
+.pic-mariya, .pic-rick, .pic-steve, .pic-monica h4{
+  margin-bottom: 10px;
+}
+
+.employee-container hr{
+  color: #f44336;
+  background-color: green;
+}
+
+.employee-container h3, h4{
+  text-align: center;
+}
+
+.employee-container h3{
+  font-size: 20px;
+  color:red;
+}
+
+.employee-container h4{
+  font-size: 15px;
+  padding-top: -5px;
+  color:green;
+}
+
+.employee-container a{
+  color:black;
+}
+
+.employee-container p{
+  padding-top: 20px;
+  margin: 15px;
+  text-align: left;
+}
+
+.bio-section h3{
+  color: #E45641;
+}
+
+.product1, .product2, .product3, .product4, .product5, .product6 {
+  background: #222;
+  height:200px;
+  margin:10px;
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+.product1{
+ background-image:url(http://www.wholefoodsmarket.com/sites/default/files/styles/small_pod/public/media/Global/Products/2.0_5_Natures%20Path%20Love%20Crunch-88.jpg?itok=B01B1Vy4);
+}
+
+.product2{
+ background-image:url(http://www.wholefoodsmarket.com/sites/default/files/styles/small_pod/public/2.3_12_Coho%20Salmon%20Raw.jpg?itok=HQT0R3mK);
+}
+
+.product3{
+ background-image:url(http://www.wholefoodsmarket.com/sites/default/files/styles/small_pod/public/2.3_10_Cheese%20Buys%20prep%20shot.jpg?itok=qtw8tNl3);
+}
+
+.product4{
+ background-image:url(../img/nuts.jpg);
+}
+
+.product5{
+ background-image:url(../img/tea.jpg);
+}
+
+.product6{
+ background-image:url(../img/coffee.jpg);
+}
+
+.product1, .product2, .product3, .product4, .product5, .product6, h2{
+  font-size:1em;
+  text-align: left;
+  color: #a53b2a;
+}
+
+.column h2{
+  text-align: center;
+  font-size: 20px;
+}
+
+/*******************************************************
+         Contact
+******************************************************/
+textarea{
+  height:200px;
+}
+/*******************************************************
+         Footer
+******************************************************/
+footer{
+  height:300px;
+  padding: 20px;
+  background: transparent;
+}
+
+.detail {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.detail h1 {
+font-size: 1em;
+color:black;
+}
+
+.detail h2 {
+ font-size: 0.8em;
+ color:black;
+}
+
+.shop h2, .eat h2, .social h2 {
+ font-size:1em;
+ color:#319f52;
+ font-weight: bold;
+ text-align: left;
+}
+
+/*.eat h2 {
+ font-size:1em;
+ color:#319f52;
+ font-weight: bold;
+ text-align: left;
+}*/
+
+/*.social h2 {
+ font-size:1em;
+ color:#319f52;
+ font-weight: bold;
+ text-align: left;
+}*/
+
+footer li{
+ color:#2e2e2b;
+ list-style: none;
+}
+
+.social a{
+  font-size:2em;
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+  color: #2e2e2b;
+}
+
+.social{
+  width:auto;
+  height:200px;
+}
